@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ritual</title>
+  </head>
+  <body>
+    <h1>Ritual</h1>
+
+    <div class="instructions" id="instructions">
+      <p>Turn off your notifications. Take a deep breath.</p>
+      <a href="#" id="start" class="btn">Start a deep work session</a>
+    </div>
+    <div class="quote hide" id="quote"></div>
+    <div class="end hide" id="end">
+      <p class="bold">Congratulation !</p>
+      <p>Your deep work session is done.</p>
+      <a href="#" id="accomplished" class="btn btn__green"
+        >I've accomplished something</a
+      >
+    </div>
+
+    <div class="animation" id="animation"></div>
+    <audio src="assets/end.mp3"></audio>
+    <script src="data/quotes.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
