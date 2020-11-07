@@ -2,7 +2,7 @@ function startTimer() {
   $quote.innerHTML = `<p>« <span class="italic">${quote.quote}</span> » - ${quote.author}</p>`;
   setTimeout(() => {
     end();
-  }, 10000);
+  }, 2700000);
 }
 
 function end() {
@@ -52,7 +52,7 @@ const svg = `<svg id="wrap" width="300" height="300">
   >
     <animate
       attributeName="stroke-dashoffset"
-      dur="20s"
+      dur="5400s"
       to="-820"
       repeatCount="indefinite"
     />
