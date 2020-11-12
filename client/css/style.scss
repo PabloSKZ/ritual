@@ -28,12 +28,22 @@ h1 {
 }
 
 .instructions,
+.timer,
 .end {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-size: 2rem;
+}
+
+.timer p {
+  margin: 0;
+  margin-top: 1rem;
+
+  &:last-child {
+    font-size: 1.2rem;
+  }
 }
 
 .quote {
@@ -68,6 +78,13 @@ h1 {
       background-color: #2ecc71;
     }
   }
+}
+
+.demo,
+.demo:visited {
+  font-size: 1rem;
+  color: black;
+  margin-top: 3.5rem;
 }
 
 .animation {

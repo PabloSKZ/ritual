@@ -256,11 +256,6 @@ const quotes = [
   },
   {
     quote:
-      "You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground.",
-    author: "Unknown",
-  },
-  {
-    quote:
       "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
     author: "Marie Curie",
   },
